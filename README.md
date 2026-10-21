@@ -4,10 +4,12 @@
 
 Welcome to the official web repository for **Old & Rusty**, creator of **Aether: Gravity Inversion** for Android.
 
-### Official Links & Compliance Documents
-* **Privacy Policy & Legal Hub:** [https://oldandrustygames.github.io/privacy.html](https://oldandrustygames.github.io/privacy.html)
-* **Authorized Digital Sellers (`app-ads.txt`):** [https://oldandrustygames.github.io/app-ads.txt](https://oldandrustygames.github.io/app-ads.txt)
-* **Developer Support:** `old.and.rusty.games@gmail.com`
+### Official Links & Community
+- **Privacy Policy & Legal Hub:** [https://oldandrustygames.github.io/privacy.html](https://oldandrustygames.github.io/privacy.html)
+- **Authorized Digital Sellers (`app-ads.txt`):** [https://oldandrustygames.github.io/app-ads.txt](https://oldandrustygames.github.io/app-ads.txt)
+- **Instagram:** [@oldandrustygames](https://www.instagram.com/oldandrustygames/)
+- **Reddit:** [u/OldAndRustyGames](https://www.reddit.com/user/OldAndRustyGames/)
+- **Developer Support:** `old.and.rusty.games@gmail.com`
 
 ### Our Studio Standards
 1. **Built for New & Older Hardware:** Engineered with Zero-GC object pooling and lightweight 2.5D canvas rendering for smooth 60 FPS gameplay on low-end and older Android devices.
