@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Old & Rusty — Official Legal, Privacy & Fair-Play Hub</title>
+  <style>
+    :root {
+      --bg-main: #090a0c;
+      --bg-card: #121519;
+      --bg-elevated: #1c2026;
+      --accent: #ff6b00;
+      --accent-secondary: #00f0ff;
+      --text-main: #f4f1ea;
+      --text-muted: #94a3b8;
+      --border: rgba(255, 107, 0, 0.35);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+      line-height: 1.65;
+      padding: 32px 16px 64px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 32px 24px;
+      background: radial-gradient(circle at 50% 0%, rgba(255, 107, 0, 0.16), var(--bg-card) 75%);
+      border: 2px solid var(--accent);
+      border-radius: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+    }
+    .studio-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 1.2px;
+      margin-bottom: 6px;
+    }
+    h1 span { color: var(--accent); }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    .nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .nav-pills a {
+      text-decoration: none;
+      color: var(--text-main);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+    .nav-pills a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    section {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 24px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 0.8px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin: 18px 0 6px;
+    }
+    p, li {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    strong { color: var(--text-main); }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+      font-size: 13px;
+    }
+    .data-table th, .data-table td {
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 10px 12px;
+      text-align: left;
+    }
+    .data-table th {
+      background: var(--bg-elevated);
+      color: var(--accent);
+      font-weight: 800;
+    }
+    .data-table td { color: var(--text-muted); }
+    .contact-box {
+      background: var(--bg-elevated);
+      border-left: 4px solid var(--accent);
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin-top: 14px;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 36px;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="studio-badge">Official Studio Documentation</div>
+      <h1>OLD <span>&amp;</span> RUSTY</h1>
+      <p class="subtitle">Legal Hub, Privacy Policy &amp; Fair-Play Disclosures for <strong>Aether: Gravity Inversion</strong></p>
+      <p class="subtitle" style="font-size:12px; margin-top:4px;">Effective Date &amp; Last Updated: October 21, 2026</p>
+      <nav class="nav-pills">
+        <a href="#about">1. About Us</a>
+        <a href="#privacy">2. Privacy Policy</a>
+        <a href="#data">3. Data Collection &amp; Security</a>
+        <a href="#terms">4. Terms &amp; Conditions</a>
+        <a href="#ads">5. Fair-Play Ad Disclosure</a>
+      </nav>
+    </header>
+
+    <!-- 1. ABOUT US -->
+    <section id="about">
+      <h2>1. About Old &amp; Rusty</h2>
+      <p><strong>Old &amp; Rusty</strong> is an independent game development studio dedicated to crafting tactile, high-contrast physics and logic games for mobile devices. Our flagship release, <strong>Aether: Gravity Inversion</strong>, combines 2.5D polarity-shift mechanics with over 100 precision puzzle chambers.</p>
+      <p><strong>Our Core Engineering Philosophy:</strong> We believe everyone should be able to enjoy great games regardless of whether they own a brand-new flagship phone or an older, "rusty" system. Every title we publish is engineered with pre-allocated Zero-Garbage-Collection (Zero-GC) memory pools, offline-first architecture, and strict frame-rate optimization so low-end hardware runs cool and responsive.</p>
+    </section>
+
+    <!-- 2. PRIVACY POLICY -->
+    <section id="privacy">
+      <h2>2. Privacy Policy</h2>
+      <p>This Privacy Policy governs the manner in which <strong>Old &amp; Rusty</strong> ("we", "our", or "us") handles information inside the mobile application <strong>Aether: Gravity Inversion</strong> (the "App"). We respect your privacy and have engineered the App to operate with minimal data exposure and zero developer-operated cloud tracking servers.</p>
+
+      <h3>2.1 Information We Do Not Collect</h3>
+      <p>Old &amp; Rusty does <strong>not</strong> require user account registration, and we do <strong>not</strong> collect, store, or transmit your real name, physical address, phone number, email address, contacts, photos, microphone audio, or precise GPS location.</p>
+
+      <h3>2.2 Locally Stored Game Progress</h3>
+      <p>All gameplay progression—including unlocked levels, star ratings, high scores, heart regeneration timers, gem balances, equipped cores/themes, and user-locked voucher redemption states—is stored strictly locally on your device using cryptographically signed browser/WebView storage (<code>localStorage</code>). We have no remote access to your local save files.</p>
+
+      <h3>2.3 Children's Privacy</h3>
+      <p>Our App is a general-audience physics puzzle game. We do not knowingly solicit or collect personal information from children under the age of 13 (or the applicable age of digital consent in your jurisdiction). If you believe a child has inadvertently provided personal information via a support email, please contact us and we will immediately purge it.</p>
+    </section>
+
+    <!-- 3. DATA COLLECTION & SECURITY -->
+    <section id="data">
+      <h2>3. Data Collection, Third-Party SDKs &amp; Security</h2>
+      <p>While Old &amp; Rusty operates zero external backend servers or open APIs, the App integrates official platform SDKs provided by Google LLC to deliver verified In-App Purchases and optional advertising:</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>SDK / Service</th>
+            <th>Data Processed</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google AdMob SDK</strong><br>(Google Mobile Ads)</td>
+            <td>Advertising ID (AAID), coarse IP-based region, device model, ad interaction metrics, and crash diagnostics.</td>
+            <td>Serving the non-gameplay bottom banner ad and fulfilling voluntary, player-initiated Rewarded Video Ads.</td>
+          </tr>
+          <tr>
+            <td><strong>Google Play Billing</strong></td>
+            <td>Transaction verification tokens, SKU identifiers, and purchase status.</td>
+            <td>Processing one-time Gem Bundle purchases, unlocking included Themes/Cores, and verifying Loyalty Tier status.</td>
+          </tr>
+          <tr>
+            <td><strong>Local Device Storage</strong></td>
+            <td>Salted FNV-1a integrity checksums (<code>ae_sig</code>) and local profile ID (<code>State.userId</code>).</td>
+            <td>Preventing memory tampering and validating single-use in-app purchase voucher codes (<code>OLD-XXXX-XXXX</code>).</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>3.1 Opt-Out &amp; Reset Controls</h3>
+      <ul>
+        <li><strong>Advertising ID Reset:</strong> You may reset or delete your Android Advertising ID at any time by navigating to your device's <em>Settings &rarr; Google &rarr; Ads</em>.</li>
+        <li><strong>Complete Local Data Erasure:</strong> Because all gameplay data resides on your device, clearing the App's storage in Android Settings or uninstalling the App permanently deletes all local save data.</li>
+      </ul>
+      <p>For further details on how Google processes data, please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy &amp; Terms</a>.</p>
+    </section>
+
+    <!-- 4. TERMS & CONDITIONS -->
+    <section id="terms">
+      <h2>4. Terms &amp; Conditions of Use</h2>
+      <h3>4.1 License to Use</h3>
+      <p>Old &amp; Rusty grants you a personal, non-exclusive, non-transferable, revocable license to download and play <strong>Aether: Gravity Inversion</strong> for personal entertainment. You may not decompile, reverse-engineer, modify, inject unauthorized scripts into, or redistribute the App.</p>
+
+      <h3>4.2 Virtual Items, Loyalty Tiers &amp; Voucher Codes</h3>
+      <ul>
+        <li><strong>Virtual Currency &amp; Cosmetics:</strong> "Aether Gems", Core shapes (including <em>Hexagon</em>), Color frequencies (including <em>Solar Gold</em>), and Arena Themes (including <em>Bio Abyss</em>) are digital in-game licensed items with <strong>no real-world monetary value</strong> and cannot be exchanged, transferred, or redeemed for cash.</li>
+        <li><strong>Pilot Loyalty Refill Pricing:</strong> Unlocking the Pro Vault or Ultimate Singularity package grants permanent access to discounted Loyalty Refill pricing on that device profile.</li>
+        <li><strong>Single-Use Redemption Codes:</strong> Any voucher code generated upon package purchase (formatted <code>OLD-XXXX-XXXX</code>) is cryptographically bound to the purchasing device's local profile ID and may only be redeemed once.</li>
+      </ul>
+
+      <h3>4.3 Anti-Tamper Enforcement</h3>
+      <p>The App utilizes automated cryptographic signature verification (<code>ae_sig</code>). Any attempt to alter local storage balances, bypass billing flows, or forge redemption codes will automatically trigger an integrity reset of tampered values to their default baseline.</p>
+    </section>
+
+    <!-- 5. FAIR-PLAY AD DISCLOSURE -->
+    <section id="ads">
+      <h2>5. Fair-Play Advertising Disclosure</h2>
+      <p>At <strong>Old &amp; Rusty</strong>, we believe intrusive advertising ruins mobile gaming. We enforce a strict, transparent <strong>Fair-Play Ad Standard</strong> inside <strong>Aether: Gravity Inversion</strong>:</p>
+      <ul>
+        <li><strong>Zero Forced Pop-Up Ads:</strong> We never interrupt your flow with unprompted full-screen interstitial video ads between levels or after crashes.</li>
+        <li><strong>100% Obstruction-Free Active Gameplay:</strong> The bottom banner ad is automatically hidden the instant active, unpaused gameplay begins, guaranteeing zero accidental clicks while you tap to invert gravity.</li>
+        <li><strong>Menu &amp; Overlay Placement Only:</strong> The 320&times;50 banner ad is displayed strictly on non-action screens (Home Screen, Pause Menu, and Modal Overlays) with dedicated safe-zone padding separating the banner from all interactive buttons.</li>
+        <li><strong>100% Opt-In Rewarded Videos:</strong> Full-screen video ads only play when you explicitly click a button marked <em>"Watch Ad"</em> (such as reviving to protect your Heart &amp; Win Streak, refilling +3 Hearts, test-driving a locked Shop item for 1 level, doubling a Boss Bounty, or claiming +5 daily Gems).</li>
+      </ul>
+
+      <div class="contact-box">
+        <strong>Developer Contact &amp; Legal Inquiries</strong><br>
+        Studio: Old &amp; Rusty<br>
+        Official Website: <a href="https://oldandrustygames.github.io">https://oldandrustygames.github.io</a><br>
+        Support &amp; Privacy Email: <a href="mailto:old.and.rusty.games@gmail.com">old.and.rusty.games@gmail.com</a>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 Old &amp; Rusty. All Rights Reserved. Built for every device—new or rusty.
+    </footer>
+  </div>
+</body>
+</html>
