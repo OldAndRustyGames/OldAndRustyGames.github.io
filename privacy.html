@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="page-title">Old &amp; Rusty — Official Legal, Privacy &amp; Fair-Play Hub</title>
+  <title id="doc-title">Old &amp; Rusty — Official Legal, Privacy &amp; Fair-Play Hub</title>
   <style>
     :root {
       --bg-main: #090a0c;
@@ -53,3 +53,325 @@
       font-weight: 900;
       letter-spacing: 1.2px;
       margin-bottom: 6px;
+    }
+    h1 span { color: var(--accent); }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    .playstore-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 14px;
+      background: var(--accent);
+      color: #090a0c;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 8px 18px;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .playstore-btn:hover {
+      background: #ff8533;
+      transform: translateY(-1px);
+    }
+    .playstore-btn svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+    .social-pills {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 14px 0;
+      flex-wrap: wrap;
+    }
+    .social-pills a {
+      text-decoration: none;
+      color: var(--text-main);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 800;
+      transition: all 0.2s ease;
+    }
+    .social-pills a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 16px;
+    }
+    .nav-pills a {
+      text-decoration: none;
+      color: var(--text-main);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+    .nav-pills a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    section {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 24px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 0.8px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin: 18px 0 6px;
+    }
+    p, li {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    strong { color: var(--text-main); }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+      font-size: 13px;
+    }
+    .data-table th, .data-table td {
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 10px 12px;
+      text-align: left;
+    }
+    .data-table th {
+      background: var(--bg-elevated);
+      color: var(--accent);
+      font-weight: 800;
+    }
+    .data-table td { color: var(--text-muted); }
+    .contact-box {
+      background: var(--bg-elevated);
+      border-left: 4px solid var(--accent);
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin-top: 14px;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 36px;
+    }
+    a { color: var(--accent); }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="studio-badge">Official Studio Documentation</div>
+      <h1>OLD <span>&amp;</span> RUSTY</h1>
+      <p class="subtitle" id="header-subtitle">Legal Hub, Privacy Policy &amp; Fair-Play Disclosures for <strong class="app-title-display">Our Games</strong></p>
+      
+      <!-- Dynamic Google Play Store Button -->
+      <div id="playstore-container" class="hidden">
+        <a id="playstore-link" href="#" target="_blank" rel="noopener" class="playstore-btn">
+          <svg viewBox="0 0 24 24"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+          Get <span class="app-title-display">Game</span> on Google Play
+        </a>
+      </div>
+
+      <!-- Social Community Badges -->
+      <div class="social-pills">
+        <a href="https://www.instagram.com/oldandrustygames/" target="_blank" rel="noopener">Instagram: @oldandrustygames</a>
+        <a href="https://www.reddit.com/user/OldAndRustyGames/" target="_blank" rel="noopener">Reddit: u/OldAndRustyGames</a>
+      </div>
+
+      <p class="subtitle" style="font-size:12px; margin-top:4px;">Effective Date &amp; Last Updated: November 2026</p>
+      <nav class="nav-pills">
+        <a href="#about">1. About Us</a>
+        <a href="#privacy">2. Privacy Policy</a>
+        <a href="#data">3. Data Collection &amp; Security</a>
+        <a href="#terms">4. Terms &amp; Conditions</a>
+        <a href="#ads">5. Fair-Play Ad Disclosure</a>
+      </nav>
+    </header>
+
+    <!-- 1. ABOUT US -->
+    <section id="about">
+      <h2>1. About Old &amp; Rusty</h2>
+      <p><strong>Old &amp; Rusty</strong> is an independent game development studio dedicated to crafting tactile, high-contrast physics, precision, and logic games for mobile devices. Our release, <strong class="app-title-display">our title</strong>, exemplifies our focus on pure mechanical flow, tactile feedback, and instant responsiveness.</p>
+      <p><strong>Our Core Engineering Philosophy:</strong> We believe everyone should be able to enjoy great games regardless of whether they own a brand-new flagship phone or an older, "rusty" system. Every title we publish is engineered with pre-allocated Zero-Garbage-Collection (Zero-GC) memory pools, offline-first architecture, and strict frame-rate optimization so mobile hardware runs cool, battery-efficient, and locked at 60 FPS.</p>
+    </section>
+
+    <!-- 2. PRIVACY POLICY -->
+    <section id="privacy">
+      <h2>2. Privacy Policy</h2>
+      <p>This Privacy Policy governs the manner in which <strong>Old &amp; Rusty</strong> ("we", "our", or "us") handles information inside the mobile application <strong class="app-title-display">the App</strong> (the "App"). We respect your privacy and have engineered the App to operate with minimal data exposure and zero developer-operated cloud tracking servers.</p>
+
+      <h3>2.1 Information We Do Not Collect</h3>
+      <p>Old &amp; Rusty does <strong>not</strong> require user account registration, and we do <strong>not</strong> collect, store, or transmit your real name, physical address, phone number, email address, contacts, photos, microphone audio, or precise GPS location.</p>
+
+      <h3>2.2 Locally Stored Game Progress</h3>
+      <p>All gameplay progression—including unlocked stages, completion records, achievements, high scores, lives/energy regeneration timers, and custom user preferences—is stored strictly locally on your device using sandboxed local storage (such as <code>localStorage</code> or local app data containers). We operate zero external cloud databases holding your save states.</p>
+
+      <h3>2.3 Children's Privacy</h3>
+      <p>Our App is a general-audience game. We do not knowingly solicit or collect personal information from children under the age of 13 (or the applicable age of digital consent in your jurisdiction). If you believe a child has provided personal information through third-party services, please contact us and we will promptly investigate and address it.</p>
+    </section>
+
+    <!-- 3. DATA COLLECTION & SECURITY -->
+    <section id="data">
+      <h2>3. Data Collection, Third-Party SDKs &amp; Security</h2>
+      <p>While Old &amp; Rusty operates zero external backend servers or proprietary telemetry APIs, the App integrates official platform SDKs provided by Google LLC to deliver verified operations and optional advertising:</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>SDK / Service</th>
+            <th>Data Processed</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google AdMob SDK</strong><br>(Google Mobile Ads)</td>
+            <td>Advertising ID (GAID/AAID), coarse IP-based region, device model, ad interaction metrics, and crash diagnostics.</td>
+            <td>Serving non-obstructive ad placements and fulfilling voluntary, player-initiated Rewarded Video Ads.</td>
+          </tr>
+          <tr>
+            <td><strong>Google Play Services / Billing</strong></td>
+            <td>Transaction verification tokens, SKU identifiers, and purchase status (where applicable).</td>
+            <td>Verifying digital license states, optional in-app purchases, or store achievement services.</td>
+          </tr>
+          <tr>
+            <td><strong>Local Device Storage</strong></td>
+            <td>Sandboxed key-value pairs, completion states, and cryptographic integrity checksums.</td>
+            <td>Preventing save tampering and persisting offline stage progression and settings directly on device.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>3.1 Opt-Out &amp; Reset Controls</h3>
+      <ul>
+        <li><strong>Advertising ID Reset:</strong> You may reset or delete your Android Advertising ID at any time by navigating to your device's <em>Settings &rarr; Google &rarr; Ads</em>.</li>
+        <li><strong>Complete Local Data Erasure:</strong> Because all gameplay data resides locally on your device, clearing the App's storage in Android Settings or uninstalling the App permanently deletes all local save data.</li>
+      </ul>
+      <p>For further details on how Google processes data, please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy &amp; Terms</a>.</p>
+    </section>
+
+    <!-- 4. TERMS & CONDITIONS -->
+    <section id="terms">
+      <h2>4. Terms &amp; Conditions of Use</h2>
+      <h3>4.1 License to Use</h3>
+      <p>Old &amp; Rusty grants you a personal, non-exclusive, non-transferable, revocable license to download and play <strong class="app-title-display">the App</strong> for personal entertainment. You may not decompile, reverse-engineer, modify, inject unauthorized scripts into, or redistribute the App binary.</p>
+
+      <h3>4.2 Virtual Items, In-Game Rewards &amp; Unlocks</h3>
+      <p>Any digital achievements, hints, cosmetics, themes, extra lives, or in-game currencies earned during play or unlocked via rewarded videos inside <strong class="app-title-display">the App</strong> are digital in-game licensed items with <strong>no real-world monetary value</strong> and cannot be refunded, exchanged, or transferred for real currency.</p>
+
+      <h3>4.3 Integrity &amp; Anti-Tamper</h3>
+      <p>The App may utilize local checksum verification and data integrity checks. Any attempt to alter local save files, bypass mechanics, or forge reward states will trigger an automated state baseline reset.</p>
+    </section>
+
+    <!-- 5. FAIR-PLAY AD DISCLOSURE -->
+    <section id="ads">
+      <h2>5. Fair-Play Advertising Disclosure</h2>
+      <p>At <strong>Old &amp; Rusty</strong>, we believe intrusive advertising ruins mobile gaming. We enforce a strict, transparent <strong>Fair-Play Ad Standard</strong> inside <strong class="app-title-display">our games</strong>:</p>
+      <ul>
+        <li><strong>Zero Forced Pop-Up Ads:</strong> We never interrupt your flow with unprompted full-screen interstitial video pop-ups between levels or unexpected crash pop-ups.</li>
+        <li><strong>100% Obstruction-Free Active Gameplay:</strong> Active gameplay remains clean and unobstructed by banner ads during active puzzle or arcade interaction.</li>
+        <li><strong>Non-Intrusive Menu Placement:</strong> Any banner ads are restricted to non-action screens with dedicated safe-zone padding away from interactive controls.</li>
+        <li><strong>100% Opt-In Rewarded Videos:</strong> Full-screen video ads only play when you voluntarily tap an ad reward button (e.g., refilling lives, earning extra hints, or claiming streak protection).</li>
+      </ul>
+
+      <div class="contact-box">
+        <strong>Developer Contact &amp; Legal Inquiries</strong><br>
+        Studio: Old &amp; Rusty<br>
+        Official Website: <a href="https://oldandrustygames.github.io">https://oldandrustygames.github.io</a><br>
+        Instagram: <a href="https://www.instagram.com/oldandrustygames/" target="_blank" rel="noopener">@oldandrustygames</a><br>
+        Reddit: <a href="https://www.reddit.com/user/OldAndRustyGames/" target="_blank" rel="noopener">u/OldAndRustyGames</a><br>
+        Support &amp; Privacy Email: <a href="mailto:old.and.rusty.games@gmail.com">old.and.rusty.games@gmail.com</a>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 Old &amp; Rusty. All Rights Reserved. Built for every device—new or rusty.
+    </footer>
+  </div>
+
+  <script>
+    // =========================================================================
+    // GAME REGISTRY: ADD YOUR FUTURE GAMES HERE (ONLY NAME & GOOGLE PLAY LINK!)
+    // =========================================================================
+    const GAMES = {
+      "arrow": {
+        name: "A R R O W",
+        playStoreUrl: "https://play.google.com/store/apps/details?id=com.oldandrusty.arrow"
+      },
+      "aether": {
+        name: "Aether: Gravity Inversion",
+        playStoreUrl: "https://play.google.com/store/apps/details?id=com.oldandrusty.aether"
+      }
+    };
+
+    (function renderGamePolicy() {
+      const params = new URLSearchParams(window.location.search);
+      const gameKey = (params.get("game") || "").toLowerCase().trim();
+      
+      // Resolve either from registry or fallback to query params
+      const game = GAMES[gameKey] || {
+        name: params.get("name") || "All Mobile Titles",
+        playStoreUrl: params.get("url") || ""
+      };
+
+      const isSpecific = Boolean(GAMES[gameKey] || params.get("name"));
+
+      // 1. Update Document Title
+      if (isSpecific) {
+        document.getElementById("doc-title").textContent = 
+          `${game.name} — Official Privacy Policy & Fair-Play Hub | Old & Rusty`;
+      }
+
+      // 2. Replace all game title placeholders
+      document.querySelectorAll(".app-title-display").forEach(el => {
+        el.textContent = game.name;
+      });
+
+      // 3. Inject Google Play Store button if link exists
+      if (game.playStoreUrl) {
+        const linkEl = document.getElementById("playstore-link");
+        linkEl.href = game.playStoreUrl;
+        document.getElementById("playstore-container").classList.remove("hidden");
+      }
+    })();
+  </script>
+</body>
+</html>
