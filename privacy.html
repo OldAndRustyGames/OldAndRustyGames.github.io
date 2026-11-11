@@ -200,7 +200,7 @@
     <header>
       <div class="studio-badge">Official Studio Documentation</div>
       <h1>OLD <span>&amp;</span> RUSTY</h1>
-      <p class="subtitle" id="header-subtitle">Legal Hub, Privacy Policy &amp; Fair-Play Disclosures for <strong class="app-title-display">Our Games</strong></p>
+      <p class="subtitle" id="header-subtitle">Legal Hub, Privacy Policy &amp; Fair-Play Disclosures for <strong class="app-title-display">All Mobile Titles</strong></p>
       
       <!-- Dynamic Google Play Store Button -->
       <div id="playstore-container" class="hidden">
@@ -229,14 +229,14 @@
     <!-- 1. ABOUT US -->
     <section id="about">
       <h2>1. About Old &amp; Rusty</h2>
-      <p><strong>Old &amp; Rusty</strong> is an independent game development studio dedicated to crafting tactile, high-contrast physics, precision, and logic games for mobile devices. Our release, <strong class="app-title-display">our title</strong>, exemplifies our focus on pure mechanical flow, tactile feedback, and instant responsiveness.</p>
+      <p id="about-intro"><strong>Old &amp; Rusty</strong> is an independent game development studio dedicated to crafting tactile, high-contrast physics, precision, and logic games for mobile devices. Our title, <strong class="app-title-display">our games</strong>, exemplifies our focus on pure mechanical flow, tactile feedback, and instant responsiveness.</p>
       <p><strong>Our Core Engineering Philosophy:</strong> We believe everyone should be able to enjoy great games regardless of whether they own a brand-new flagship phone or an older, "rusty" system. Every title we publish is engineered with pre-allocated Zero-Garbage-Collection (Zero-GC) memory pools, offline-first architecture, and strict frame-rate optimization so mobile hardware runs cool, battery-efficient, and locked at 60 FPS.</p>
     </section>
 
     <!-- 2. PRIVACY POLICY -->
     <section id="privacy">
       <h2>2. Privacy Policy</h2>
-      <p>This Privacy Policy governs the manner in which <strong>Old &amp; Rusty</strong> ("we", "our", or "us") handles information inside the mobile application <strong class="app-title-display">the App</strong> (the "App"). We respect your privacy and have engineered the App to operate with minimal data exposure and zero developer-operated cloud tracking servers.</p>
+      <p id="privacy-intro">This Privacy Policy governs the manner in which <strong>Old &amp; Rusty</strong> ("we", "our", or "us") handles information inside the mobile application <strong class="app-title-display">our games</strong> (the "App"). We respect your privacy and have engineered the App to operate with minimal data exposure and zero developer-operated cloud tracking servers.</p>
 
       <h3>2.1 Information We Do Not Collect</h3>
       <p>Old &amp; Rusty does <strong>not</strong> require user account registration, and we do <strong>not</strong> collect, store, or transmit your real name, physical address, phone number, email address, contacts, photos, microphone audio, or precise GPS location.</p>
@@ -251,7 +251,7 @@
     <!-- 3. DATA COLLECTION & SECURITY -->
     <section id="data">
       <h2>3. Data Collection, Third-Party SDKs &amp; Security</h2>
-      <p>While Old &amp; Rusty operates zero external backend servers or proprietary telemetry APIs, the App integrates official platform SDKs provided by Google LLC to deliver verified operations and optional advertising:</p>
+      <p>While Old &amp; Rusty operates zero external backend servers or proprietary telemetry APIs, the App integrates official platform SDKs provided by Google LLC to deliver verified operations, billing entitlements, and optional advertising:</p>
 
       <table class="data-table">
         <thead>
@@ -265,12 +265,12 @@
           <tr>
             <td><strong>Google AdMob SDK</strong><br>(Google Mobile Ads)</td>
             <td>Advertising ID (GAID/AAID), coarse IP-based region, device model, ad interaction metrics, and crash diagnostics.</td>
-            <td>Serving non-obstructive ad placements and fulfilling voluntary, player-initiated Rewarded Video Ads.</td>
+            <td>Fulfilling voluntary, player-initiated Rewarded Video Ads for bonus lives and puzzle hints.</td>
           </tr>
           <tr>
-            <td><strong>Google Play Services / Billing</strong></td>
-            <td>Transaction verification tokens, SKU identifiers, and purchase status (where applicable).</td>
-            <td>Verifying digital license states, optional in-app purchases, or store achievement services.</td>
+            <td><strong>Google Play Billing &amp; Licensing</strong></td>
+            <td>Transaction verification tokens, order IDs, SKU identifiers, and purchase entitlement status.</td>
+            <td>Processing the optional VIP Package purchase (which doubles maximum life capacity and provides 5 hints per rewarded ad instead of 1) and verifying digital license ownership.</td>
           </tr>
           <tr>
             <td><strong>Local Device Storage</strong></td>
@@ -294,8 +294,8 @@
       <h3>4.1 License to Use</h3>
       <p>Old &amp; Rusty grants you a personal, non-exclusive, non-transferable, revocable license to download and play <strong class="app-title-display">the App</strong> for personal entertainment. You may not decompile, reverse-engineer, modify, inject unauthorized scripts into, or redistribute the App binary.</p>
 
-      <h3>4.2 Virtual Items, In-Game Rewards &amp; Unlocks</h3>
-      <p>Any digital achievements, hints, cosmetics, themes, extra lives, or in-game currencies earned during play or unlocked via rewarded videos inside <strong class="app-title-display">the App</strong> are digital in-game licensed items with <strong>no real-world monetary value</strong> and cannot be refunded, exchanged, or transferred for real currency.</p>
+      <h3>4.2 In-App Purchases, VIP Package &amp; Digital Items</h3>
+      <p>All in-app purchases—specifically the optional <strong>VIP Package</strong> (which doubles maximum player life capacity and grants 5 puzzle hints instead of the standard 1 hint when watching rewarded ads)—are digital licensed enhancements with <strong>no real-world monetary value</strong>. These items are non-transferable, non-refundable outside standard Google Play refund policies, and cannot be redeemed for cash. <em>Note:</em> The VIP package does not modify ad frequency, as our titles feature zero pop-up and zero banner ads by default; optional rewarded video ads remain strictly player-initiated for voluntary reward claims.</p>
 
       <h3>4.3 Integrity &amp; Anti-Tamper</h3>
       <p>The App may utilize local checksum verification and data integrity checks. Any attempt to alter local save files, bypass mechanics, or forge reward states will trigger an automated state baseline reset.</p>
@@ -306,10 +306,9 @@
       <h2>5. Fair-Play Advertising Disclosure</h2>
       <p>At <strong>Old &amp; Rusty</strong>, we believe intrusive advertising ruins mobile gaming. We enforce a strict, transparent <strong>Fair-Play Ad Standard</strong> inside <strong class="app-title-display">our games</strong>:</p>
       <ul>
-        <li><strong>Zero Forced Pop-Up Ads:</strong> We never interrupt your flow with unprompted full-screen interstitial video pop-ups between levels or unexpected crash pop-ups.</li>
-        <li><strong>100% Obstruction-Free Active Gameplay:</strong> Active gameplay remains clean and unobstructed by banner ads during active puzzle or arcade interaction.</li>
-        <li><strong>Non-Intrusive Menu Placement:</strong> Any banner ads are restricted to non-action screens with dedicated safe-zone padding away from interactive controls.</li>
-        <li><strong>100% Opt-In Rewarded Videos:</strong> Full-screen video ads only play when you voluntarily tap an ad reward button (e.g., refilling lives, earning extra hints, or claiming streak protection).</li>
+        <li><strong>Zero Pop-Up Interstitials:</strong> We never interrupt your flow with unprompted full-screen interstitial video pop-ups between levels or unexpected crash pop-ups.</li>
+        <li><strong>Zero In-Game Banners:</strong> The screen remains 100% clean and unobstructed, with zero banner ads across active gameplay and menus.</li>
+        <li><strong>100% Opt-In Rewarded Videos:</strong> Video ads only play when you voluntarily tap an ad reward button to claim extra lives or hints. Standard players receive 1 hint per reward; players with the VIP package receive doubled lives and 5 hints per reward.</li>
       </ul>
 
       <div class="contact-box">
@@ -346,30 +345,35 @@
       const params = new URLSearchParams(window.location.search);
       const gameKey = (params.get("game") || "").toLowerCase().trim();
       
-      // Resolve either from registry or fallback to query params
-      const game = GAMES[gameKey] || {
-        name: params.get("name") || "All Mobile Titles",
-        playStoreUrl: params.get("url") || ""
-      };
+      const game = GAMES[gameKey];
+      const isSpecific = Boolean(game);
 
-      const isSpecific = Boolean(GAMES[gameKey] || params.get("name"));
-
-      // 1. Update Document Title
       if (isSpecific) {
+        // 1. Update Document Title & Subtitle
         document.getElementById("doc-title").textContent = 
-          `${game.name} — Official Privacy Policy & Fair-Play Hub | Old & Rusty`;
-      }
+          `${game.name} — Official Privacy Policy, Terms & Fair-Play Hub | Old & Rusty`;
+        
+        document.getElementById("header-subtitle").innerHTML = 
+          `Legal Hub, Privacy Policy &amp; Fair-Play Disclosures for <strong>${game.name}</strong>`;
 
-      // 2. Replace all game title placeholders
-      document.querySelectorAll(".app-title-display").forEach(el => {
-        el.textContent = game.name;
-      });
+        // 2. Natural Intro Statements
+        document.getElementById("about-intro").innerHTML = 
+          `<strong>Old &amp; Rusty</strong> is an independent game development studio dedicated to crafting tactile, high-contrast physics, precision, and logic games for mobile devices. Our title, <strong>${game.name}</strong>, exemplifies our focus on pure mechanical flow, tactile feedback, and instant responsiveness.`;
 
-      // 3. Inject Google Play Store button if link exists
-      if (game.playStoreUrl) {
-        const linkEl = document.getElementById("playstore-link");
-        linkEl.href = game.playStoreUrl;
-        document.getElementById("playstore-container").classList.remove("hidden");
+        document.getElementById("privacy-intro").innerHTML = 
+          `This Privacy Policy governs the manner in which <strong>Old &amp; Rusty</strong> ("we", "our", or "us") handles information inside the mobile application <strong>${game.name}</strong> (the "App"). We respect your privacy and have engineered the App to operate with minimal data exposure and zero developer-operated cloud tracking servers.`;
+
+        // 3. Update all remaining inline game-target spans
+        document.querySelectorAll(".app-title-display").forEach(el => {
+          el.textContent = game.name;
+        });
+
+        // 4. Inject Google Play Store button if link exists
+        if (game.playStoreUrl) {
+          const linkEl = document.getElementById("playstore-link");
+          linkEl.href = game.playStoreUrl;
+          document.getElementById("playstore-container").classList.remove("hidden");
+        }
       }
     })();
   </script>
